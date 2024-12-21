@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.calculator {
+  margin-top: 2rem;
+  background-color: black;
+  height: 80vh;
+  width: 30vw;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.calculator input {
+  width: 100%;
+  height: 15vh; 
+  border: none;
+  text-align: right;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  background-color: #000;
+  color: white;
+  font-size: 2rem;
+  margin-right: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box; 
+}
+
+.calKeys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1; 
+}
+
+.calKeys button {
+  width: 6vw;
+  height: 75px;
+  margin: 5px;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 3.5rem;
+  cursor: pointer;
+}
+
+.operator {
+  background-color: #ff9500;
+  color: #fff;
+}
+
+.all-clear,
+.delete {
+  background-color: #d4d4d2;
+}
+
+.number {
+  background-color: #505050;
+  color: #fff;
+}
+
+.calKeys .zero {
+  width: 13vw;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .calculator {
+    width: 80vw;
+    height: 70vh;
+  }
+
+  .calculator input {
+    height: 12vh;
+    font-size: 1.5em;
+  }
+
+  .calKeys button {
+    width: 15vw;
+    height: 60px;
+    font-size: 1em;
+  }
+
+  .calKeys .zero {
+    width: 31vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .calculator {
+    width: 90vw;
+    height: 60vh;
+  }
+
+  .calculator input {
+    height: 10vh;
+    font-size: 1.2em;
+  }
+
+  .calKeys button {
+    width: 20vw;
+    height: 50px;
+    font-size: 0.8em;
+  }
+
+  .calKeys .zero {
+    width: 43vw;
+  }
+}
