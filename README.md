@@ -8,8 +8,6 @@ A responsive web-based calculator built with HTML, CSS, and JavaScript. It suppo
 - **Delete Function**: Removes the last character entered.
 - **Clear Function**: Clears the input field.
 
-## Technologies Used - HTML - CSS - JavaScript ## Installation 1. Clone the repository: ```bash git clone https://github.com/yourusername/calculator.git cd calculator
-
 ## Files
 
 - `index.html`: Contains the structure and layout of the calculator.
@@ -26,8 +24,8 @@ A responsive web-based calculator built with HTML, CSS, and JavaScript. It suppo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/calculator.git
-   cd calculator
+   https://github.com/Rutu-Kalhapure/js-calculator
+   cd js-calculator
    ```
 
 ## Examples
